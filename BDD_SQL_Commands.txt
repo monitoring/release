@@ -1,0 +1,101 @@
+-- phpMyAdmin SQL Dump
+-- version 3.3.9.2
+-- http://www.phpmyadmin.net
+--
+-- Serveur: localhost
+-- Généré le : Ven 30 Décembre 2011 à 23:42
+-- Version du serveur: 5.5.9
+-- Version de PHP: 5.3.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Base de données: `TW`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `keywords`
+--
+
+CREATE TABLE `keywords` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `isIncluded` tinyint(1) DEFAULT NULL,
+  `value` text,
+  `request_id` int(10) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `request_id` (`request_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+
+--
+-- Contenu de la table `keywords`
+--
+
+INSERT INTO `keywords` VALUES(1, 1, 'A380', 1);
+INSERT INTO `keywords` VALUES(2, 0, 'Boeing', 1);
+INSERT INTO `keywords` VALUES(3, 1, 'Travel', 1);
+INSERT INTO `keywords` VALUES(4, 0, 'Iphone4', 2);
+INSERT INTO `keywords` VALUES(5, 0, 'IPhone4S', 2);
+INSERT INTO `keywords` VALUES(6, 1, '4G', 2);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `requests`
+--
+
+CREATE TABLE `requests` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `title` varchar(50) DEFAULT NULL,
+  `description` text,
+  `created` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Contenu de la table `requests`
+--
+
+INSERT INTO `requests` VALUES(1, 'Airbus', 'This is the Airbus request description', '2011-12-30 17:27:51');
+INSERT INTO `requests` VALUES(2, 'IPhone5', 'IPhone5 request description', '2011-12-30 17:27:51');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `tweets`
+--
+
+CREATE TABLE `tweets` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `value` varchar(140) DEFAULT NULL,
+  `author` text,
+  `published` datetime DEFAULT NULL,
+  `request_id` int(10) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `request_id` (`request_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+
+--
+-- Contenu de la table `tweets`
+--
+
+INSERT INTO `tweets` VALUES(1, 'Tweet sur Airbus 1', 'Burger', '2011-12-30 22:10:49', 1);
+INSERT INTO `tweets` VALUES(2, 'Tweet sur Airbus parlant de l''A380', 'Cheese', '2011-12-30 22:10:53', 1);
+INSERT INTO `tweets` VALUES(3, 'Tweet sur IPhone5', 'Raclette', '2011-12-30 22:10:56', 2);
+
+--
+-- Contraintes pour les tables exportées
+--
+
+--
+-- Contraintes pour la table `keywords`
+--
+ALTER TABLE `keywords`
+  ADD CONSTRAINT `keywords_ibfk_1` FOREIGN KEY (`request_id`) REFERENCES `requests` (`id`);
+
+--
+-- Contraintes pour la table `tweets`
+--
+ALTER TABLE `tweets`
+  ADD CONSTRAINT `tweets_ibfk_1` FOREIGN KEY (`request_id`) REFERENCES `requests` (`id`);
