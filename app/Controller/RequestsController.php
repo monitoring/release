@@ -4,6 +4,10 @@ class RequestsController extends AppController {
 	public $uses = array('Request', 'Tweet', 'Keyword');
     public $helpers = array('Html', 'Form');	
 	
+	function viewActive() {
+	 	$this->set('title_for_layout', 'Requests');
+	}
+	
 	public function index() {
 		$this->set('requests', $this->Request->find('all'));
 	}

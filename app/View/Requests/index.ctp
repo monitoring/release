@@ -1,4 +1,4 @@
-<!-- File: /app/View/Posts/index.ctp -->
+<!-- File: /app/View/Requests/index.ctp -->
 
 <h1>T&W Requests</h1>
 <table>
