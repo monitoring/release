@@ -8,18 +8,37 @@
 <?php echo $scripts_for_layout ?>
 </head>
 <body>
-
-<!-- If you'd like some sort of menu to
-show up on all of your views, include it here -->
-<div id="header">
-    <div id="menu">...</div>
+	<?php echo $this->Session->flash('good'); ?>
+	<?php echo $this->Session->flash('bad'); ?>	
+<div id="all">
+	<!-- If you'd like some sort of menu to
+	show up on all of your views, include it here -->
+	<div id="header">
+		<img src="<?php echo $this->webroot; ?>img/logo.png" title="Twitt and Watch - PFE" width="400px">
+		<div id="menu">...</div>
+	</div>
+	
+	<div id="int">
+		<!-- Here's where I want my views to be displayed -->
+		<?php echo $content_for_layout ?>
+	</div>
+	
 </div>
-
-<!-- Here's where I want my views to be displayed -->
-<?php echo $content_for_layout ?>
-
 <!-- Add a footer to each displayed page -->
-<div id="footer">EFREI PFE</div>
-
+	<div id="footer">
+		<div id="footer_int">
+			<div id="footer_left">
+				<ul>
+					<li>Plan du site</li>
+					<li>Manuel d'utilisation</li>
+					<li>Support</li>
+				</ul>
+			</div>
+			<div id="footer_right">
+				EFREI PFE
+			</div>
+			<div style="clear:left"></div>
+		</div>
+	</div>
 </body>
 </html>

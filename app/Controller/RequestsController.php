@@ -2,7 +2,8 @@
 class RequestsController extends AppController {
     public $name = 'Requests';
 	public $uses = array('Request', 'Tweet', 'Keyword');
-    public $helpers = array('Html', 'Form');	
+    public $helpers = array('Html', 'Form');
+	public $components = array('Session');
 	
 	function viewActive() {
 	 	$this->set('title_for_layout', 'Requests');
@@ -23,6 +24,19 @@ class RequestsController extends AppController {
 		$this->set('excluded_kws', 	$this->Keyword->find('list', array(
 			        'conditions' => array('Keyword.request_id' => $id, 'Keyword.isIncluded' => 0),
 					'fields' => array('Keyword.value'))));
+	}
+	
+	public function add() {   
+		if($this->request->is('post')){
+		if ($this->Request->save($this->request->data)) {
+	    	$this->Session->setFlash('Your request has been created!', 'default', array(), 'good');
+			$this->redirect(array('action' => 'index'));
+	  	} else {
+	        $this->Session->setFlash('Unable to create your request!', 'default', array(), 'bad');
+	    }}
+	}
+	
+	public function stat() {
 	}
 }
 ?>

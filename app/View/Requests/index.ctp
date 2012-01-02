@@ -1,6 +1,6 @@
 <!-- File: /app/View/Requests/index.ctp -->
 
-<h1>T&W Requests</h1>
+<h1>My Requests</h1>
 <table>
     <tr>
         <th>ID</th>
@@ -16,11 +16,13 @@
         <td><?php echo $request['Request']['id']; ?></td>
         <td>
             <?php echo $this->Html->link($request['Request']['title'],
-array('controller' => 'requests', 'action' => 'view', $request['Request']['id'])); ?>
+				array('controller' => 'requests', 'action' => 'view', $request['Request']['id'])); ?>
         </td>
         <td><?php echo $request['Request']['description']; ?></td>
 		<td><?php echo $request['Request']['created']; ?></td>
     </tr>
     <?php endforeach; ?>
-
 </table>
+<div id="new">
+<?php echo $this->Html->link('New Request', array('controller' => 'requests', 'action' => 'add')); ?>
+</div>

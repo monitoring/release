@@ -22,12 +22,26 @@
 
 /** General Style Info **/
 body {
-	background: #003d4c;
+	background-image:url('../img/bg.jpg');
 	color: #fff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:90%;
 	margin: 0;
 }
+
+div#all{
+	width:900px;
+	margin:auto;
+	
+}
+
+.date{
+	font-style:italic;
+	color:#666;
+	font-size:12px;
+	font-weight:100;
+}
+
 a {
 	color: #003d4c;
 	text-decoration: underline;
@@ -45,30 +59,38 @@ h1, h2, h3, h4 {
 	margin-bottom:0.5em;
 }
 h1 {
-	background:#fff;
 	color: #003d4c;
-	font-size: 100%;
+	font-size: 20px;
+	font-weight:bold;
 }
 h2 {
-	background:#fff;
-	color: #e32;
-	font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;
-	font-size: 190%;
+	color: #2c6877;
+	font-size: 18px;
+	font-weight:bold;
 }
 h3 {
 	color: #2c6877;
-	font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;
-	font-size: 165%;
+	font-size: 16px;
 }
 h4 {
 	color: #993;
 	font-weight: normal;
 }
 ul, li {
-	margin: 0 12px;
+	margin: 0;
+	list-style:none;
 }
 p {
 	margin: 0 0 1em 0;
+}
+
+td#description{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+td#keywords{
+	border-right: solid 2px #FFF;
 }
 
 /** Layout **/
@@ -81,7 +103,6 @@ p {
 }
 #header h1 {
 	line-height:20px;
-	background: #003d4c url('../img/cake.icon.png') no-repeat left;
 	color: #fff;
 	padding: 0px 30px;
 }
@@ -103,10 +124,35 @@ p {
 	padding: 10px 20px 40px 20px;
 	overflow: auto;
 }
+
+div#int{
+	min-height:515px;
+}
+
 #footer {
 	clear: both;
-	padding: 6px 10px;
-	text-align: right;
+	padding: 25px;
+	padding-left:0;
+	margin-top:10px;
+	text-align: left;
+	background: #b7d6dd;
+}
+
+div#footer_int{
+	width:900px;
+	margin:auto;
+}
+
+div#footer_left{
+	float:left;
+	text-align:left;
+	width:300px;
+}
+
+div#footer_right{
+	text-align:right;
+	float:left;
+	width:600px;
 }
 
 /** containers **/
@@ -303,6 +349,7 @@ form div.submit {
 	clear: both;
 	margin-top: 10px;
 }
+
 label {
 	display: block;
 	font-size: 110%;
@@ -365,6 +412,7 @@ form .submit input[type=submit] {
 form .submit input[type=submit]:hover {
 	background: #5BA150;
 }
+
 /* Form errors */
 form .error {
 	background: #FFDACC;

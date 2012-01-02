@@ -1,19 +1,36 @@
 <!-- File: /app/View/Requests/view.ctp -->
 
-<h1><?php echo $request['Request']['title']?></h1>
+<h1>Request Details</h1>
 
-<p><small>Created: <?php echo $request['Request']['created']?></small></p>
-
-<p><?php echo $request['Request']['description']?></p>
-
-<p>Included Keyword(s):<br>
-<?php foreach ($included_kws as $inc_kw): ?>
-<?php echo $inc_kw, ';'?>
-<?php endforeach ?>
-</p>
-<p>Excluded Keyword(s):<br>
-<?php foreach ($excluded_kws as $exc_kw): ?>
-<?php echo $exc_kw, ';'?>
-<?php endforeach ?>
-</p>
-
+<table>
+	<tr>
+		<td colspan="2"><h2><?php echo $request['Request']['title']?> <span class="date">Created: <?php echo $request['Request']['created']?></span></h2></td>
+	</tr>
+	<tr>
+		<td colspan="2" id="description"><?php echo $request['Request']['description']?></td>
+	</tr>
+	<tr>
+		<td id="keywords">
+			<h3>Included Keyword(s):</h3>
+			<?php foreach ($included_kws as $inc_kw): ?>
+			<?php echo $inc_kw, ';'?>
+			<?php endforeach ?>
+		</td>
+		<td>
+			<h3>Excluded Keyword(s):</h3>
+			<?php foreach ($excluded_kws as $exc_kw): ?>
+			<?php echo $exc_kw, ';'?>
+			<?php endforeach ?>
+		</td>
+	</tr>
+</table>
+<?php
+	echo $this->Html->link('View Results', array('controller' => 'tweets', 
+	'action' => 'view'
+	,$request['Request']['id']));
+?>
+<?php
+	echo $this->Html->link('View Stats', array('controller' => 'requests', 
+	'action' => 'stat'
+	,$request['Request']['id']));
+?>
