@@ -8,8 +8,6 @@
 <?php echo $scripts_for_layout ?>
 </head>
 <body>
-	<?php echo $this->Session->flash('good'); ?>
-	<?php echo $this->Session->flash('bad'); ?>	
 <div id="all">
 	<!-- If you'd like some sort of menu to
 	show up on all of your views, include it here -->

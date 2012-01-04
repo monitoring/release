@@ -26,7 +26,7 @@ class RequestsController extends AppController {
 					'fields' => array('Keyword.value'))));
 	}
 	
-	public function add() {   
+	public function add() { 
 		if($this->request->is('post')){
 			
 			$requestToSave = array(

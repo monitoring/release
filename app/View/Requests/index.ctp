@@ -1,5 +1,6 @@
 <!-- File: /app/View/Requests/index.ctp -->
-
+<?php echo $this->Session->flash('good'); ?>
+<?php echo $this->Session->flash('bad'); ?>
 <h1>My Requests</h1>
 <table>
     <tr>
