@@ -49,15 +49,25 @@ class TwitterSource extends DataSource {
             $queryData['keywords']['included'] = 'boeing';
         }
         $url = "http://search.twitter.com/search.json?q=";
-        $url .= "{$queryData['keywords']['included']}";
-		$url .= "&rpp=5&result_type=recent";
+        
+		foreach ($queryData['keywords']['included'] as $i_kw){
+			$url .= $i_kw;
+			$url .= "%20";
+		}
 		
-		echo debug($url);
+		foreach ($queryData['keywords']['excluded'] as $e_kw){
+			$url .= '-';
+			$url .= $e_kw;
+			$url .= "%20";
+		}
+		
+		$url .= "&result_type=recent";
+		
         $response = json_decode($this->connection->get($url), true);
 		
         
-		$results = $response[results];
-echo debug($results);
+		$results = $response['results'];
+		
         return $results;
     }
 

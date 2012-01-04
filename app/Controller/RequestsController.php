@@ -26,6 +26,30 @@ class RequestsController extends AppController {
 					'fields' => array('Keyword.value'))));
 	}
 	
+	public function results($id = null) {
+	   	$this->Request->id = $id;
+	    $this->set('request', $this->Request->read());
+	
+		$inclKws = $this->Keyword->find('list', array(
+		        'conditions' => array('Keyword.request_id' => $id, 'Keyword.isIncluded' => 1),
+				'fields' => array('Keyword.value')));
+		$this->set('included_kws', $inclKws);
+		
+		$exclKws = $this->Keyword->find('list', array(
+			        'conditions' => array('Keyword.request_id' => $id, 'Keyword.isIncluded' => 0),
+					'fields' => array('Keyword.value')));
+		$this->set('excluded_kws', $exclKws);
+		
+		$keywords= array(
+			'included' => $inclKws,
+			'excluded' => $exclKws
+		);
+		
+		$tweets = $this->Tweet->find('all', compact('keywords'));
+
+		$this->set('tweets', $tweets);
+	}
+	
 	public function add() { 
 		if($this->request->is('post')){
 			

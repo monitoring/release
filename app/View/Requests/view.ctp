@@ -25,8 +25,8 @@
 	</tr>
 </table>
 <?php
-	echo $this->Html->link('View Results', array('controller' => 'tweets', 
-	'action' => 'view',
+	echo $this->Html->link('View Results', array('controller' => 'requests', 
+	'action' => 'results',
 	$request['Request']['id']));
 ?>
 <?php
