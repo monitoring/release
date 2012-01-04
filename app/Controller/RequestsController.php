@@ -50,7 +50,7 @@ class RequestsController extends AppController {
 		$this->set('tweets', $tweets);
 	}
 	
-	public function add() { 
+	public function add() {
 		if($this->request->is('post')){
 			
 			$requestToSave = array(
@@ -79,8 +79,10 @@ class RequestsController extends AppController {
 					$this->redirect(array('action' => 'index'));
 				}
 			}
-	  	} else {
-	        $this->Session->setFlash('Unable to create your request!', 'default', array(), 'bad');
+		}
+		else {
+	    	echo "OKKKK";
+			$this->Session->setFlash('Unable to create your request!', 'default', array(), 'bad');
 	    }
 	}
 	

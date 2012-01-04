@@ -2188,3 +2188,298 @@
 #1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
 #2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-01-04 23:48:22 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:55:30 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:55:33 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:55:34 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:58:10 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:58:11 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:58:11 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:58:12 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:58:54 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:58:55 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:58:55 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:58:56 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:58:56 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:58:56 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:58:56 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:58:57 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:58:57 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:58:59 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:59:01 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:59:10 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:59:22 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:59:22 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:59:22 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:59:22 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:59:23 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:59:23 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-04 23:59:23 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:01:37 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:01:38 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:01:38 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:01:39 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:01:39 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:01:39 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:01:51 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:01:52 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:01:57 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:01:59 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:06:26 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:09:40 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:09:47 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:09:49 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:09:50 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:09:51 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:09:58 Error: [MissingActionException] Action TweetsController::view() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TweetsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:09:58 Error: [MissingActionException] Action TweetsController::view() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TweetsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:10:13 Error: [MissingActionException] Action TweetsController::view() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TweetsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:10:13 Error: [MissingActionException] Action TweetsController::view() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TweetsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:12:09 Error: [MissingActionException] Action TweetsController::results() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TweetsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:12:09 Error: [MissingActionException] Action TweetsController::results() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TweetsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:12:31 Error: [MissingActionException] Action TweetsController::results() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TweetsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:12:31 Error: [MissingActionException] Action TweetsController::results() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TweetsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:12:33 Error: [MissingActionException] Action TweetsController::results() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TweetsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:12:33 Error: [MissingActionException] Action TweetsController::results() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TweetsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:12:52 Error: [MissingActionException] Action TweetsController::results() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TweetsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:12:52 Error: [MissingActionException] Action TweetsController::results() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TweetsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:12:53 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:12:59 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:14:45 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 00:16:15 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

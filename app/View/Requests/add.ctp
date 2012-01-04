@@ -1,5 +1,4 @@
 <!-- File: /app/View/Requests/add.ctp -->
-
 <h1>New Request</h1>
 <?php
 echo $this->Form->create('Request');

@@ -24,17 +24,25 @@
 		</td>
 	</tr>
 </table>
-<?php
-	echo $this->Html->link('View Results', array('controller' => 'requests', 
-	'action' => 'results',
-	$request['Request']['id']));
-?>
-<?php
-	echo $this->Html->link('View Stats', array('controller' => 'requests', 
-	'action' => 'stat',
-	$request['Request']['id']));
-?>
-<?php
+<div id="buttons_right">
+    <div class="button_bleu">
+        <?php
+        echo $this->Html->link('View Results', array('controller' => 'requests', 
+        'action' => 'results',
+        $request['Request']['id']));
+        ?>
+    </div>
+    <div class="button_bleu">
+        <?php
+        echo $this->Html->link('View Stats', array('controller' => 'requests', 
+        'action' => 'stat',
+        $request['Request']['id']));
+        ?>
+    </div>
+</div>
+<div class="return">
+	<?php
 	echo $this->Html->link('Return', array('controller' => 'requests', 
 	'action' => 'index'));
-?>
+	?>
+</div>

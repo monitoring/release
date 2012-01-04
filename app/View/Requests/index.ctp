@@ -24,6 +24,6 @@
     </tr>
     <?php endforeach; ?>
 </table>
-<div id="new">
+<div id="new" class="button">
 <?php echo $this->Html->link('New Request', array('controller' => 'requests', 'action' => 'add')); ?>
 </div>
