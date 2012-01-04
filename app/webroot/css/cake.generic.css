@@ -349,7 +349,6 @@ form div.submit {
 	clear: both;
 	margin-top: 10px;
 }
-
 label {
 	display: block;
 	font-size: 110%;
@@ -412,7 +411,6 @@ form .submit input[type=submit] {
 form .submit input[type=submit]:hover {
 	background: #5BA150;
 }
-
 /* Form errors */
 form .error {
 	background: #FFDACC;
@@ -498,7 +496,7 @@ p.error,
 	background-image: linear-gradient(top, #ee5f5b, #c43c35);
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
-.success {
+.success, #goodMessage {
 	clear: both;
 	color: #fff;
 	border: 1px solid rgba(0, 0, 0, 0.5);

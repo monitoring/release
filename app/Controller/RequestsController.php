@@ -28,12 +28,36 @@ class RequestsController extends AppController {
 	
 	public function add() {   
 		if($this->request->is('post')){
-		if ($this->Request->save($this->request->data)) {
-	    	$this->Session->setFlash('Your request has been created!', 'default', array(), 'good');
-			$this->redirect(array('action' => 'index'));
+			
+			$requestToSave = array(
+				'title' => $this->request->data['Request']['title'],
+				'description' => $this->request->data['Request']['description']
+			);
+			
+			if ($this->Request->save($requestToSave)) {
+				$newRequestId = $this->Request->id;
+				$inclKwToSave = array(
+					'value' => $this->request->data['Request']['includedKw'],
+					'isIncluded' => 1,
+					'request_id' => $newRequestId
+				);
+
+				$exclKwToSave = array(
+					'value' => $this->request->data['Request']['excludedKw'],
+					'isIncluded' => 0,
+					'request_id' => $newRequestId
+				);
+				
+				$KeywordsToSave = array($inclKwToSave, $exclKwToSave);
+				
+				if ($this->Keyword->saveAll($KeywordsToSave)) {
+	    			$this->Session->setFlash('Your request has been created!', 'default', array(), 'good');
+					$this->redirect(array('action' => 'index'));
+				}
+			}
 	  	} else {
 	        $this->Session->setFlash('Unable to create your request!', 'default', array(), 'bad');
-	    }}
+	    }
 	}
 	
 	public function stat() {

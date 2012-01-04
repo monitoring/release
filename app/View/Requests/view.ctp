@@ -26,11 +26,15 @@
 </table>
 <?php
 	echo $this->Html->link('View Results', array('controller' => 'tweets', 
-	'action' => 'view'
-	,$request['Request']['id']));
+	'action' => 'view',
+	$request['Request']['id']));
 ?>
 <?php
 	echo $this->Html->link('View Stats', array('controller' => 'requests', 
-	'action' => 'stat'
-	,$request['Request']['id']));
+	'action' => 'stat',
+	$request['Request']['id']));
+?>
+<?php
+	echo $this->Html->link('Return', array('controller' => 'requests', 
+	'action' => 'index'));
 ?>
