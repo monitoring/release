@@ -64,8 +64,7 @@ class TwitterSource extends DataSource {
 		$url .= "&result_type=recent";
 		
         $response = json_decode($this->connection->get($url), true);
-		
-        
+
 		$results = $response['results'];
 		
         return $results;

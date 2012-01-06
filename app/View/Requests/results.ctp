@@ -12,7 +12,6 @@
     </tr>
 
     <!-- Here is where we loop through our $requests array, printing out request info -->
-
     <?php foreach ($tweets as $tweet): ?>
     <tr>
         <td><?php echo $tweet['from_user']; ?></td>

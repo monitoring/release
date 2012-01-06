@@ -84,6 +84,6 @@ class DATABASE_CONFIG {
 	public $twitter = array(
 	    'datasource' => 'TwitterSource',
 	    'login'      => 'tweet',
-	    'password'   => 'password',
+	    'password'   => 'password'
 	);
 }

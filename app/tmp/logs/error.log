@@ -2483,3 +2483,111 @@
 #1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
 #2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-01-05 08:58:40 Error: [SocketException] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/CakeSocket.php(192): CakeSocket->connect()
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/Http/HttpSocket.php(337): CakeSocket->write('GET /search.jso...')
+#2 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/Http/HttpSocket.php(419): HttpSocket->request(Array)
+#3 /Applications/MAMP/htdocs/cakephp_install/app/Model/Datasource/TwitterSource.php(66): HttpSocket->get('http://search.t...')
+#4 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Model/Model.php(2458): TwitterSource->read(Object(Tweet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_install/app/Controller/RequestsController.php(48): Model->find('all', Array)
+#6 [internal function]: RequestsController->results('1')
+#7 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RequestsController), Array)
+#8 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-01-05 08:58:40 Error: [SocketException] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/CakeSocket.php(192): CakeSocket->connect()
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/Http/HttpSocket.php(337): CakeSocket->write('GET /search.jso...')
+#2 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/Http/HttpSocket.php(419): HttpSocket->request(Array)
+#3 /Applications/MAMP/htdocs/cakephp_install/app/Model/Datasource/TwitterSource.php(66): HttpSocket->get('http://search.t...')
+#4 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Model/Model.php(2458): TwitterSource->read(Object(Tweet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_install/app/Controller/RequestsController.php(48): Model->find('all', Array)
+#6 [internal function]: RequestsController->results('1')
+#7 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RequestsController), Array)
+#8 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-01-05 08:58:40 Error: [SocketException] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/CakeSocket.php(192): CakeSocket->connect()
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/Http/HttpSocket.php(337): CakeSocket->write('GET /search.jso...')
+#2 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/Http/HttpSocket.php(419): HttpSocket->request(Array)
+#3 /Applications/MAMP/htdocs/cakephp_install/app/Model/Datasource/TwitterSource.php(66): HttpSocket->get('http://search.t...')
+#4 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Model/Model.php(2458): TwitterSource->read(Object(Tweet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_install/app/Controller/RequestsController.php(48): Model->find('all', Array)
+#6 [internal function]: RequestsController->results('1')
+#7 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RequestsController), Array)
+#8 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-01-05 08:58:40 Error: [SocketException] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/CakeSocket.php(192): CakeSocket->connect()
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/Http/HttpSocket.php(337): CakeSocket->write('GET /search.jso...')
+#2 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/Http/HttpSocket.php(419): HttpSocket->request(Array)
+#3 /Applications/MAMP/htdocs/cakephp_install/app/Model/Datasource/TwitterSource.php(66): HttpSocket->get('http://search.t...')
+#4 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Model/Model.php(2458): TwitterSource->read(Object(Tweet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_install/app/Controller/RequestsController.php(48): Model->find('all', Array)
+#6 [internal function]: RequestsController->results('1')
+#7 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RequestsController), Array)
+#8 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-01-05 08:58:40 Error: [SocketException] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/CakeSocket.php(192): CakeSocket->connect()
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/Http/HttpSocket.php(337): CakeSocket->write('GET /search.jso...')
+#2 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/Http/HttpSocket.php(419): HttpSocket->request(Array)
+#3 /Applications/MAMP/htdocs/cakephp_install/app/Model/Datasource/TwitterSource.php(66): HttpSocket->get('http://search.t...')
+#4 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Model/Model.php(2458): TwitterSource->read(Object(Tweet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_install/app/Controller/RequestsController.php(48): Model->find('all', Array)
+#6 [internal function]: RequestsController->results('1')
+#7 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RequestsController), Array)
+#8 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-01-05 08:58:40 Error: [SocketException] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/CakeSocket.php(192): CakeSocket->connect()
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/Http/HttpSocket.php(337): CakeSocket->write('GET /search.jso...')
+#2 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Network/Http/HttpSocket.php(419): HttpSocket->request(Array)
+#3 /Applications/MAMP/htdocs/cakephp_install/app/Model/Datasource/TwitterSource.php(66): HttpSocket->get('http://search.t...')
+#4 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Model/Model.php(2458): TwitterSource->read(Object(Tweet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_install/app/Controller/RequestsController.php(48): Model->find('all', Array)
+#6 [internal function]: RequestsController->results('1')
+#7 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RequestsController), Array)
+#8 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-01-05 09:07:10 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 09:24:04 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 09:24:14 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 09:32:06 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 09:32:09 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-05 10:19:10 Error: [MissingActionException] Action RequestsController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_install/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_install/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
