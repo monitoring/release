@@ -1,7 +1,7 @@
 <?php
 class RequestsController extends AppController {
     public $name = 'Requests';
-	public $uses = array('Request', 'Tweet', 'Keyword');
+	public $uses = array('Request', 'Tweet', 'Keyword', 'Mood');
     public $helpers = array('Html', 'Form');
 	public $components = array('Session');
 	
@@ -28,17 +28,18 @@ class RequestsController extends AppController {
 	
 	public function results($id = null) {
 	   	$this->Request->id = $id;
-	    $this->set('request', $this->Request->read());
+	    
+		// Request
+		$this->set('request', $this->Request->read());
 	
+		// Keywords
 		$inclKws = $this->Keyword->find('list', array(
 		        'conditions' => array('Keyword.request_id' => $id, 'Keyword.isIncluded' => 1),
 				'fields' => array('Keyword.value')));
-		$this->set('included_kws', $inclKws);
 		
 		$exclKws = $this->Keyword->find('list', array(
 			        'conditions' => array('Keyword.request_id' => $id, 'Keyword.isIncluded' => 0),
 					'fields' => array('Keyword.value')));
-		$this->set('excluded_kws', $exclKws);
 		
 		$keywords= array(
 			'included' => $inclKws,
@@ -46,7 +47,23 @@ class RequestsController extends AppController {
 		);
 		
 		$tweets = $this->Tweet->find('all', compact('keywords'));
-
+		
+		// Mood
+		$goodMoods = $this->Mood->find('list', array(
+		        'conditions' => array('Mood.isGood' => 1),
+				'fields' => array('Mood.value')));
+		
+		$badMoods = $this->Mood->find('list', array(
+		        'conditions' => array('Mood.isGood' => 0),
+				'fields' => array('Mood.value')));
+		
+		$moods= array(
+			'good' => $goodMoods,
+			'bad' => $badMoods
+		);
+		
+		$this->set('moods', $moods);
+		$this->set('keywords', $keywords);
 		$this->set('tweets', $tweets);
 	}
 	
@@ -81,7 +98,6 @@ class RequestsController extends AppController {
 			}
 		}
 		else {
-	    	echo "OKKKK";
 			$this->Session->setFlash('Unable to create your request!', 'default', array(), 'bad');
 	    }
 	}

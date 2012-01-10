@@ -474,6 +474,18 @@ form .submit input[type=submit]:hover {
 	margin-top:25px;
 }
 
+.occurence{
+	background:yellow;
+}
+
+.goodMood{
+	background-color:green;
+}
+
+.badMood{
+	background-color:red;
+}
+
 div#buttons_right{
 	text-align:right;
 }
